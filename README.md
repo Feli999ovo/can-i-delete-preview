@@ -14,7 +14,7 @@
 5. EXE 尚未代码签名，下载后 Windows/SmartScreen 可能提示发布者未知。请先核对本 Release 的 SHA-256；校验只能确认文件一致，不等于安全保证。不要为了运行而关闭安全软件。
 
 公开下载仓库：<https://github.com/Feli999ovo/can-i-delete-preview>。
-[下载 v0.5.0 Read-only Preview](https://github.com/Feli999ovo/can-i-delete-preview/releases/tag/v0.5.0-readonly-preview.2)
+[下载 v0.5.0 Read-only Preview](https://github.com/Feli999ovo/can-i-delete-preview/releases/tag/v0.5.0-readonly-preview.3)
 
 此公开仓库仅分发 Windows 二进制、许可和使用文档，**不提供应用源码，不宣称源码已公开**。
 
@@ -42,7 +42,8 @@
 - 删除按钮禁用；勾选只用于统计，**不能执行删除或移入回收站**。
 - 分析代码不创建、写入、移动、重命名或删除被扫描对象，也不向扫描目录写日志。
 - 文件系统或其他程序可能在扫描期间变化；读取还可能由 Windows 更新访问时间等系统元数据。因此结果是扫描当时的观察，不是目录永久不变的保证。
-- 界面为“证据型文件分析”；副标题明确说明仅提供分析，不执行删除或回收。中性禁用按钮写明“只读预览 · 不可删除”。
+- 界面为“证据型文件分析”；副标题明确说明仅提供分析，不执行删除或回收。底栏禁用按钮写明“不可删除”；窗口标题与底栏同时说明本预览版仅提供分析，勾选只用于统计。
+- 没有符合规则的候选项时，“全选候选项”按钮不可用；出现候选项后才可操作。
 
 ## 系统要求与已验证范围
 
@@ -69,6 +70,6 @@
 
 - Release 外部 `SHA256SUMS.txt` 提供 ZIP 校验值；解压后的同名文件提供 EXE、说明和截图校验值。
 - 在 PowerShell 中运行：`Get-FileHash .\can-i-delete-v0.5.0-readonly-preview-win.zip -Algorithm SHA256`。
-- 发布标签为 `v0.5.0-readonly-preview.2`，产品来源为提交 `79ff91a4e36cdf878b2f36135e59b8323884b948`，见 `BUILD-INFO.txt`。
-- EXE 内部程序集版本仍为 `0.0.0.0`；本次公开预览版本由发布标签、ZIP 名称和 SHA-256 确定。
+- 发布标签为 `v0.5.0-readonly-preview.3`，产品来源为提交 `b1f13773496e50bc23454e6d77e4fcc2ecdc9beb`，见 `BUILD-INFO.txt`。
+- EXE 内部程序集版本与文件版本均为 `0.5.0.3`，产品显示版本为 `v0.5.0-readonly-preview.3`；可用发布标签与 SHA-256 交叉核对。
 - 免费，附原项目 MIT 许可与版权声明；详见 `LICENSE`。此处提供许可文本不表示应用源码已在本仓库公开。已知限制见 [RELEASE-NOTES.md](RELEASE-NOTES.md)。

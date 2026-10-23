@@ -1,11 +1,14 @@
 can-i-delete v0.5.0 Read-only Preview
-Release tag: v0.5.0-readonly-preview.2
-Source commit: 79ff91a4e36cdf878b2f36135e59b8323884b948
-Source tree: 8488f655055984f38d5c3ed7d3dd5db6589a0fc9
-Build UTC: 2026-10-23T11:10:21.837Z
+Release tag: v0.5.0-readonly-preview.3
+Source commit: b1f13773496e50bc23454e6d77e4fcc2ecdc9beb
+Source tree: 97b6c57d79ca2a2d4531befb11461897e4636eae
+Build UTC: 2026-10-23T15:43:30.639Z
 EXE: can-i-delete.exe
-EXE bytes: 147968
-EXE SHA-256: 308435c7fc9122d972ab8ee1d267866294e04e979173d401c498e837f8124b2e
+EXE bytes: 149504
+EXE SHA-256: 289c69435fbac4a02648f3c2a95d5bd3fac1ba877c71b1d5f6cec91ac6cb0793
+Assembly version: 0.5.0.3
+File version: 0.5.0.3
+Product display version: v0.5.0-readonly-preview.3
 BuildAllowsRealDeletion: false
 ExecutionAllowed: false
 Runtime prerequisite: .NET Framework 4.8 or newer 4.x (4.8.1 tested)
@@ -13,14 +16,13 @@ Managed architecture: AnyCPU (ILOnly); tested on x64 Windows build 26300
 Elevation manifest: asInvoker; actual normal-user launch NOT VERIFIED
 Authenticode: NotSigned
 Embedded asset: AppLogo; no external asset files required
-Automation: SelfTest 379/379; LegacyRepro 17/17; external gateprobe PASS
-Desktop checks: real-file scan, filter, size sort, Explorer selection, resume 4 -> 8 -> 12
+Automation: SelfTest 380/380; LegacyRepro 17/17; external gateprobe PASS
+UI checks: real-scan and filter screenshots on a native desktop; path tab matches the entered folder; candidate toggle disabled when no candidate exists
 Screenshot capture: real Windows desktop CopyFromScreen, native DPI 144 (150%)
 Screen: 2560x1600 physical working area; window: 1860x1268; no simulated DPI
 Screenshots show generated sample files, not private user data or demo-mode data
-Product source files compiled: MainForm.cs, Rules.cs, Safety.cs, ContentEvidence.cs, DeleteEngine.cs, DeleteLog.cs, RecycleBackend.cs, RecycleBin.cs, RowList.cs, ModernTheme.cs, ScanEngine.cs, ScanSession.cs, ScanText.cs
+Product source files compiled: AssemblyInfo.cs, MainForm.cs, Rules.cs, Safety.cs, ContentEvidence.cs, DeleteEngine.cs, DeleteLog.cs, RecycleBackend.cs, RecycleBin.cs, RowList.cs, ModernTheme.cs, ScanEngine.cs, ScanSession.cs, ScanText.cs
 No SelfTest/LegacyRepro/harness/VM tool sources compiled into this EXE
-The EXE assembly version remains 0.0.0.0; identify by release tag and SHA-256
 Public distribution repository: https://github.com/Feli999ovo/can-i-delete-preview; application source code is not included
-Distribution revision: .2 (clean publication snapshot; same verified executable)
-Public history: one independent initial commit, no development history or source distribution
+Distribution revision: .3 (minimal UI fixes plus explicit version metadata)
+Public history: independently initialized publication history; no development history or source distribution
