@@ -1,0 +1,26 @@
+can-i-delete v0.5.0 Read-only Preview
+Release tag: v0.5.0-readonly-preview.2
+Source commit: 79ff91a4e36cdf878b2f36135e59b8323884b948
+Source tree: 8488f655055984f38d5c3ed7d3dd5db6589a0fc9
+Build UTC: 2026-10-23T11:10:21.837Z
+EXE: can-i-delete.exe
+EXE bytes: 147968
+EXE SHA-256: 308435c7fc9122d972ab8ee1d267866294e04e979173d401c498e837f8124b2e
+BuildAllowsRealDeletion: false
+ExecutionAllowed: false
+Runtime prerequisite: .NET Framework 4.8 or newer 4.x (4.8.1 tested)
+Managed architecture: AnyCPU (ILOnly); tested on x64 Windows build 26300
+Elevation manifest: asInvoker; actual normal-user launch NOT VERIFIED
+Authenticode: NotSigned
+Embedded asset: AppLogo; no external asset files required
+Automation: SelfTest 379/379; LegacyRepro 17/17; external gateprobe PASS
+Desktop checks: real-file scan, filter, size sort, Explorer selection, resume 4 -> 8 -> 12
+Screenshot capture: real Windows desktop CopyFromScreen, native DPI 144 (150%)
+Screen: 2560x1600 physical working area; window: 1860x1268; no simulated DPI
+Screenshots show generated sample files, not private user data or demo-mode data
+Product source files compiled: MainForm.cs, Rules.cs, Safety.cs, ContentEvidence.cs, DeleteEngine.cs, DeleteLog.cs, RecycleBackend.cs, RecycleBin.cs, RowList.cs, ModernTheme.cs, ScanEngine.cs, ScanSession.cs, ScanText.cs
+No SelfTest/LegacyRepro/harness/VM tool sources compiled into this EXE
+The EXE assembly version remains 0.0.0.0; identify by release tag and SHA-256
+Public distribution repository: https://github.com/Feli999ovo/can-i-delete-preview; application source code is not included
+Distribution revision: .2 (clean publication snapshot; same verified executable)
+Public history: one independent initial commit, no development history or source distribution

@@ -1,0 +1,6 @@
+*.exe
+*.zip
+.tmp/
+private-checks/
+source/
+tools/

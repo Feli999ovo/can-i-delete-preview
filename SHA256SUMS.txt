@@ -1,0 +1,2 @@
+f9e8a73870f3f34ddb0cf3ae7f80ba1c6a5404281cf09e69e2604885a0e21eaf  can-i-delete-v0.5.0-readonly-preview-win.zip
+308435c7fc9122d972ab8ee1d267866294e04e979173d401c498e837f8124b2e  can-i-delete.exe
