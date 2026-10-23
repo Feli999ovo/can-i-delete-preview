@@ -1,14 +1,14 @@
 can-i-delete v0.5.0 Read-only Preview
-Release tag: v0.5.0-readonly-preview.3
-Source commit: b1f13773496e50bc23454e6d77e4fcc2ecdc9beb
-Source tree: 97b6c57d79ca2a2d4531befb11461897e4636eae
-Build UTC: 2026-10-23T15:43:30.639Z
+Release tag: v0.5.0-readonly-preview.4
+Source commit: 18b4e1a68fe74c1f75055b5f35de4a3f0730854c
+Source tree: ce91045e3c65500e74ff79a98679e1d1c30ae84c
+Build UTC: 2026-10-23T17:13:19.851Z
 EXE: can-i-delete.exe
-EXE bytes: 149504
-EXE SHA-256: 289c69435fbac4a02648f3c2a95d5bd3fac1ba877c71b1d5f6cec91ac6cb0793
-Assembly version: 0.5.0.3
-File version: 0.5.0.3
-Product display version: v0.5.0-readonly-preview.3
+EXE bytes: 153088
+EXE SHA-256: 1585ef25998ad6ed79024f710d541fde6a3cf68a6adaa70f4bd41dbeeec4086f
+Assembly version: 0.5.0.4
+File version: 0.5.0.4
+Product display version: v0.5.0-readonly-preview.4
 BuildAllowsRealDeletion: false
 ExecutionAllowed: false
 Runtime prerequisite: .NET Framework 4.8 or newer 4.x (4.8.1 tested)
@@ -17,12 +17,12 @@ Elevation manifest: asInvoker; actual normal-user launch NOT VERIFIED
 Authenticode: NotSigned
 Embedded asset: AppLogo; no external asset files required
 Automation: SelfTest 380/380; LegacyRepro 17/17; external gateprobe PASS
-UI checks: real-scan and filter screenshots on a native desktop; path tab matches the entered folder; candidate toggle disabled when no candidate exists
+UI checks: real-scan, filter and drawer screenshots on a native desktop; card rhythm and footer buttons asserted by geometry audit
 Screenshot capture: real Windows desktop CopyFromScreen, native DPI 144 (150%)
 Screen: 2560x1600 physical working area; window: 1860x1268; no simulated DPI
 Screenshots show generated sample files, not private user data or demo-mode data
 Product source files compiled: AssemblyInfo.cs, MainForm.cs, Rules.cs, Safety.cs, ContentEvidence.cs, DeleteEngine.cs, DeleteLog.cs, RecycleBackend.cs, RecycleBin.cs, RowList.cs, ModernTheme.cs, ScanEngine.cs, ScanSession.cs, ScanText.cs
 No SelfTest/LegacyRepro/harness/VM tool sources compiled into this EXE
 Public distribution repository: https://github.com/Feli999ovo/can-i-delete-preview; application source code is not included
-Distribution revision: .3 (minimal UI fixes plus explicit version metadata)
+Distribution revision: .4 (drawer path copy and plain-language evidence text on top of the .3 UI fixes)
 Public history: independently initialized publication history; no development history or source distribution
