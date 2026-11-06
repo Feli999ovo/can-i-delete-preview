@@ -1,4 +1,4 @@
-# Release Notes — can-i-delete v0.6.0-preview.1
+# Release Notes — can-i-delete v0.6.0-preview.2
 
 发布性质：免费 Windows 便携**预览版**（Pre-release）。
 

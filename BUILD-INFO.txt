@@ -1,10 +1,10 @@
-can-i-delete v0.6.0-preview.1
-Source commit: 22a692e5556cda187e720e5778809c298c17f7c1
-Source tree: 79bc2fb4fae4f05823b6c3c9b6b46df373e61c87
-Build UTC: 2026-11-06T12:23:20.036Z
+can-i-delete v0.6.0-preview.2
+Source commit: 9af5922ed4adbdf2e806fa1a4b4bf4879d7b0aef
+Source tree: 7da2fa7223715e51595cc5a45be487c963854089
+Build UTC: 2026-11-06T12:46:29.169Z
 EXE bytes: 285696
-EXE SHA-256: 025de88ae4f01477ae0cf54c1e0a4e1d558be67453a55e9bf65cb2b72575ee8a
-Assembly version: 0.6.0.1
+EXE SHA-256: 5696657ae9c426eb3210270539f20b2beff00949fa77e023b36b0b32494ff83c
+Assembly version: 0.6.0.2
 Permanent cleaning: enabled for TMP-PKGCACHE, TMP-THUMBCACHE, TMP-CRASHDUMP after confirmation
 Recycle-bin backend: disabled
 Runtime: .NET Framework 4.8+; Microsoft Edge WebView2 Runtime
